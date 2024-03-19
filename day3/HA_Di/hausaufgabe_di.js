@@ -1,17 +1,7 @@
-var myarray = [1, 2, 3, 4, 5];
+var person = ""; 
+person = prompt(" Wie heißen Sie?"); 
 
-
-
-
-
-function entferneElement(arr, wert) {
- 
-    let position = myarray.indexOf(4);
-    console.log(position);
-    var deleted_element = myarray.slice(1,1);
-  }
-
-  console.log(entferneElement(myarray, 3));
-  
+alert(" Hallo"); 
+alert( person);
 
 
